@@ -1,5 +1,7 @@
 # My Summer Monroe Research Project
 ## Predicting population in Harrisonburg using a convolutional neural network and satelite imagery
-Below are links to the documents of my project:
+### Abstract
+.5 page abstract including my major goal, 2-3 sub objectives
 
-### Links to Projects
+### Links to Further Files
+[1. Proposed Calander for Project Completion](calander.md)
