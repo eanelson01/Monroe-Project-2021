@@ -1,4 +1,3 @@
-# Monroe Research Project: Using a convolutional neural network and satellite imagery to predict population in Harrisonburg, Va
 ### Abstract
 The main objective of my research project this summer is to predict the population in Harrisonburg using satellite imagery. This information will allow counties in Harrisonburg to confidently predict where people are most congregated. The idea of this project came from multiple changes in the Rockingham County school district boundaries as administrators tried to accommodate for changing population counts in each area. This resulted in fluctuations in student body numbers, the creation of new schools, and the movement of students based on their place of residence. With this model, school districts will be able to have up to date estimates on where students live, being able to better predict changes in student location to anticipate potential changes in the student enrollment numbers. 
 
