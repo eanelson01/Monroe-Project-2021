@@ -19,5 +19,5 @@ For my third objective, I want to properly create, test, and assess a variety of
 
 With these steps I feel confident that I will be able to create a model capable of predicting population densities which will aid Harrisonburg County as well as the schools in the surrounding areas. 
 
-### Links to Further Files
+### Links for Project Elements:
 [1. Proposed Calendar for Project Completion](calendar.md)
