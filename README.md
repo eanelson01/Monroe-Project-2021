@@ -11,7 +11,4 @@ With these steps I feel confident that I will be able to create a model capable 
 
 ### Links to Further Files
 [1. Proposed Calendar for Project Completion](calendar.md)
-
 [2. Dataset used for training](dataset.md)
-
-[3. Literature review](litreview.md)
