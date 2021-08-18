@@ -18,8 +18,10 @@ With these steps I feel confident that I will be able to create a model capable 
 
 [4. Harrisonburg Dataset](hdataset.md)
 
-[5. Model and Script](model.md)
+[5. Explanation of Model](model.md)
 
-[6. Results of Model](results.md)
+[6. Script for Model](script.md)
 
-[7. Future Goals and Implementation](future.md)
+[7. Results of Model](results.md)
+
+[8. Future Goals and Implementation](future.md)
