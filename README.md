@@ -7,7 +7,7 @@ My second goal is to find the best sources of data that I need and to take steps
 
 For my third goal, I will properly create, test, and assess the chosen CNN method to understand its effectiveness in building segmentation in Harrisonburg, VA.I will split the data that I retrieve in the previous step into training and testing data. By splitting the dataset into training and testing sets, I will ensure that the model does not become overfit on the training data. This will help predictions on future data be more accurate and helpful for the desired use. Together, this process creates an effective model for building segmentation in Harrisonburg, VA. With this model, I will then compare the trends of urbanization in the selected images and times.
 
-With these steps I feel confident that I will be able to create a model capable of building segmetnation from satellite imagery which will aid Harrisonburg County as well as the schools in the surrounding areas. 
+With these steps I feel confident that I will be able to create a model capable of building segmentation from satellite imagery which will aid Harrisonburg County as well as the schools in the surrounding areas. 
 
 ### Detailed account of the process
 [1. Proposed Calendar for Project Completion](calendar.md)
