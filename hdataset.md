@@ -8,4 +8,4 @@ The dataset is not perfect and has some limitations. The first limitation is tha
 ### My Implementation
 For my research purposes, I downloaded images from the Harrisonburg area outlined below. I downloaded the images from 2007 and 2011, labeling them as such to keep track of the time period. Once I had them downloaded, I seperated the images into different folders. I applied the same preprocessing as I did on the training data, splitting the larger 5000 x 5000 images into 390 250 x 250 images. This makes the images easier to provide as input to the model and for the model to predict on. I did this for each larger 5000 x 5000 image and placed them into folders designating the time period and the location of each. This preprocessing made the images ready for the model to predict on and provide results
 
-####[Information about the Model](model.md)
+#### [Information about the Model](model.md)
