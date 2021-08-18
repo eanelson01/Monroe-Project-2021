@@ -11,3 +11,5 @@
 | 8.9-8.25 | Additional time which can be filled if I run behind schedule |
 
 #### [Information about the Literature Review](litreview.md)
+
+#### [Home Page](README.md)
