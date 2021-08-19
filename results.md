@@ -23,9 +23,31 @@ Above is a sample of the training images and the generated masks. On the left is
 ### Results on Harrisonburg Images
 Having the model work relatively well on the training set made me confident in its ability to then be applied to the Harrisonburg images I retrieved. To do so, I loaded in images in 9 different batches for each time period. Each batch had 390 images and covered a 5000 x 5000 pixel range. I then called the function model.predict() on the images, viewing the results with the im.show() command. Below are the results for 2002.
 
+#### 2002 Images
+
 | Actual | Generated |
 | ------ | --------- | 
+| ![img.png](512_25_02_actual.png) | ![img.png](512_25_02_gen.png) |
+| ![img.png](07_37_actual.png) | ![img.png](07_37_gen.png) |
+| ![img.png](07_36_actual.png) | ![img.png](07_36_gen.png) |
 
+#### 2011 Images 
+
+| Actual | Generated |
+| ------ | --------- | 
+| ![img.png](11_25_actual.png) | ![img.png](11_25_gen.png) | 
+| ![img.png](11_37_actual.png) | ![img.png](11_37_gen.png) |
+| ![img.png](11_36_actual.png) | ![img.png](11_36_gen.png) | 
+
+
+#### 2002 vs 2011 Masks
+
+| 2002 | 2011 | 
+| ---- | ---- | 
+
+The images above are the satellite images on the left and the generated mask on the right. I seperated them by 2002 and 2011 but the images are from the same area. This means that the first image in 2002 section is the same area as the 1st image in the 2011 and so on. The most striking visual is the differences in the masks for the second image for both. There are a total of 9 buildings in 2011 compared to the just 1 in 2002. These images demonstrate a dramatic increase in residential density for this area. The model did an effective job on these Harrisonburg images but had similar faults as the training images. The boarders can be blurry and fail to be fully defined. Additionally, there is sometimes extra noise when there are shadows or tree coverage. These and more factors result in less accurate results. The results are satisfactory overall, however, and paint a decent picture of the residential makeup of an area. The next step is to congregate these smaller images into larger 5000 x 5000 maps to provide additional context. 
+
+#### Larger Images 
 The model did a great job picking up on where buildings are in the above images. These results show the effectiveness of the model in its designed goal. The images I've shown above are the smaller images derived from the original 5000 x 5000 format. Using the GDAL model, I was able to recreate the larger 5000 x 5000 image with the mask, giving more context than the smaller images. These were the intended end product of the model: maps showing where buildings are in a given section. With these images, we can directly compare the amount of buildings in a given area from 2002 compared to 2011. 
 
 
