@@ -11,6 +11,8 @@ As mentioned in the previous sections, I trained the UNet model on the Inria Cha
 
 From the table you can see that the model was able to reach a 96.65% accuracy on the training data and a 94.61% testing accuracy. For the training data, this means that the model correctly predicted the label of an individual pixel, building vs non-building, ~96% of the time. The same concept applies to the testing dataset. These results are promising given the variety exhibited in architecture with most buildings not looking the same. For this reason I was reasonably pleased with the initial results of the model. To look beyond these base quantitative results I began to look at the images that the model was actually predicting. A sample of them is below.
 
+#### Training Images and Masks
+
 | Actual Image | Generated Mask | 
 | ------------ | -------------- | 
 | ![img.png](16_train_actual.png) | ![img.png](16_test_gen.png)|
@@ -39,11 +41,6 @@ Having the model work relatively well on the training set made me confident in i
 | ![img.png](11_37_actual.png) | ![img.png](11_37_gen.png) |
 | ![img.png](11_36_actual.png) | ![img.png](11_36_gen.png) | 
 
-
-#### 2002 vs 2011 Masks
-
-| 2002 | 2011 | 
-| ---- | ---- | 
 
 The images above are the satellite images on the left and the generated mask on the right. I seperated them by 2002 and 2011 but the images are from the same area. This means that the first image in 2002 section is the same area as the 1st image in the 2011 and so on. The most striking visual is the differences in the masks for the second image for both. There are a total of 9 buildings in 2011 compared to the just 1 in 2002. These images demonstrate a dramatic increase in residential density for this area. The model did an effective job on these Harrisonburg images but had similar faults as the training images. The boarders can be blurry and fail to be fully defined. Additionally, there is sometimes extra noise when there are shadows or tree coverage. These and more factors result in less accurate results. The results are satisfactory overall, however, and paint a decent picture of the residential makeup of an area. The next step is to congregate these smaller images into larger 5000 x 5000 maps to provide additional context. 
 
