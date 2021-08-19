@@ -21,7 +21,7 @@ With these steps I feel confident that I will be able to create a model capable 
 
 [5. Explanation of Model](model.md)
 
-[6. Script for Model](script.md)
+[6. Script for Model](https://colab.research.google.com/drive/10a7IHhAniHaWLncCkWme0V3sdgyEwUYO?usp=sharing)
 
 [7. Results of Model](results.md)
 
