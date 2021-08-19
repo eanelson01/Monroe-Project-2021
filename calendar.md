@@ -1,6 +1,6 @@
 # Proposed Calander for Monroe Summer Project
 | Week  | Task |
-| ------- | ------- |
+| ----- | -----|
 | 6.21-6.27 | Continue working on my literature review, trying to focus on the methods use as I craft an understanding of what I will use going forward. |
 | 6.28-7.4 | Finish up the literature review. Looking to have somewhere around 8-10 sources to have a solid understanding. Start to look at gathering satelite images and any additional data needed for analysis. |
 | 7.5-7.11 | Continue gathering data and start process of coding using Tensor Flow inside PyCharm. I am not aware of how long this step will take and I will need to get a better frame of reference as the summer goes on. |
