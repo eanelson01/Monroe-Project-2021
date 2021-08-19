@@ -25,7 +25,9 @@ Having the model work realitvely well on the training set made me confident in i
 
 | Actual | Generated |
 | ------ | --------- | 
-| ![](harrisonburg021_image_slice025.tif) | ![](hburg021_mask_025) |
+
+The model did a great job picking up on where buildings are in the above images. These results show the effectiveness of the model in its designed goal. The images I've shown above are the smaller images derived from the original 5000 x 5000 format. Using the GDAL model, I was able to recreate the larger 5000 x 5000 image with the mask, giving more context than the smaller images. These were the intended end product of the model: maps showing where buildings are in a given section. With these images, we can directly compare the amount of buildings in a given area from 2002 compared to 2011. 
+
 
 #### [Information about Future Goals](future.md)
 

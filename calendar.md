@@ -11,8 +11,6 @@
 | 8/2-8/8 | Take results and compile them into a medium which is appropriate for sharing the results. Look into how I would like to present them and maybe look at how to publish.|
 | 8/9-8/25 | Additional time which can be filled if I run behind schedule. |
 
-![img.png](calandar.png)
-
 #### [Information about the Literature Review](litreview.md)
 
 #### [Home Page](README.md)
