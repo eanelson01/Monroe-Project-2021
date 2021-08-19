@@ -25,7 +25,7 @@ Having the model work realitvely well on the training set made me confident in i
 
 | Actual | Generated |
 | ------ | --------- | 
-| ![](harrisonburg021_image_slice025.tif) |
+| ![](harrisonburg021_image_slice025.tif) | |
 
 #### [Information about Future Goals](future.md)
 
