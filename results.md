@@ -28,7 +28,7 @@ Having the model work relatively well on the training set made me confident in i
 #### 2002 Images
 
 | Actual | Generated |
-| ------ | --------- | 
+| :------: | :--------: | 
 | ![img.png](images/512_25_02_actual.png) | ![img.png](images/512_25_02_gen.png) |
 | ![img.png](images/07_37_actual.png) | ![img.png](images/07_37_gen.png) |
 | ![img.png](images/07_36_actual.png) | ![img.png](images/07_36_gen.png) |
@@ -38,7 +38,7 @@ Having the model work relatively well on the training set made me confident in i
 #### 2011 Images 
 
 | Actual | Generated |
-| ------ | --------- | 
+| :------: | :---------: | 
 | ![img.png](images/11_25_actual.png) | ![img.png](images/11_25_gen.png) | 
 | ![img.png](images/11_37_actual.png) | ![img.png](images/11_37_gen.png) |
 | ![img.png](images/11_36_actual.png) | ![img.png](images/11_36_gen.png) | 
