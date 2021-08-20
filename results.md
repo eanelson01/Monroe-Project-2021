@@ -3,7 +3,7 @@
 As mentioned in the previous sections, I trained the UNet model on the Inria Challenge dataset. I split those larger images into the smaller 250 x 250 format and then resized them further to fit into the model. I ultimately had 3,120 images that were 256 x 256 in size. I implemented the train test split and trained the model for a total of 15 epochs with a batch size of 32. Here are the results I gathered and the loss graph for the duration of training:
 
 | Train vs Test | Accuracy | Loss | 
-| ------------- | -------- | ---- |
+| :-------------: | :--------: | :----: |
 | Train | 96.65% | 0.0811 |
 | Test | 94.61% | 0.1500 |
 
@@ -14,7 +14,7 @@ From the table, you can see that the model was able to reach a 96.65% accuracy o
 #### Training Images and Masks
 
 | Actual Image | Generated Mask | 
-| ------------ | -------------- | 
+| :------------: | :--------------: | 
 | ![img.png](images/16_train_actual.png) | ![img.png](images/16_test_gen.png)|
 | ![img.png](images/921_train_actual.png) | ![img.png](images/921_test_gen.png) |
 | ![img.png](images/630_train_actual.png) | ![img.png](images/630_test_gen.png) |
