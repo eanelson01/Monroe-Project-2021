@@ -1,6 +1,6 @@
 ## Results of the UNet Model
 ### Results on Training Data
-As mentioned in the previous sections, I trained the UNet model on the Inria Challenge dataset. I split those larger images into the smaller 250 x 250 format and then resized them further to fit into the model. I ultimately had 3,120 images that were 256 x 256 in size. I implemented the train test split and trained the model for a total of 15 epochs with a batch size of 32. Here are the results I gathered and the loss graph for the duration of training:
+As mentioned in the previous sections, I trained the U-Net model on the Inria Challenge dataset. I split those larger images into the smaller 250 x 250 format and then resized them further to fit into the model. I ultimately had 3,120 images that were 256 x 256 in size. I implemented the train test split and trained the model for a total of 15 epochs with a batch size of 32. I ran this model a handful of times with different numbers of epochs. The first couple of times I trained for 10 epochs and reached around 89% on the testing dataset. Once I upped the epochs to 15 I began getting better results into the mid 90s. The process of training for 15 epochs took around 5 hours for each run through. I trained a total of 5 times. Below are the results I gathered from my best training cycle and the accompanying loss graph for the duration of training:
 
 | Train vs Test | Accuracy | Loss | 
 | :-------------: | :--------: | :----: |
@@ -52,11 +52,7 @@ The images above are the satellite images on the left and the generated mask on 
 #### Assessment of Urban Change
 The most striking visual is the differences in the masks for the second image for both. There are a total of 9 buildings in 2011 compared to just 1 in 2002. These images demonstrate a dramatic increase in residential density for this area. Additionally, these results depict the development of entirely new neighborhoods, specifically in the 5th image for both 2002 and 2011. In 2002, there were no buildings or infrastructure. By 2011 there was an entirely new neighborhood comprised of 18 buildings. These results show the usefulness of the model: being able to compare development through the generated masks. These images depict where urban or residential chang has occurred by visually marking where buildings are. Side by side, these images can provide immediate visual aid as to where buildings have cropped up. The white on black depiction of where buildings are provides easier visual confirmation than the full RGB spectrum of the initial images. It helps to fully highlight that change in an easy to interpret manner. 
 
-### [View additional comparitve images for 2002  vs 2011](images.md)
-
-#### Larger Images 
-The model did a great job picking up on where buildings are in the above images. These results show the effectiveness of the model in its designed goal. The images I've shown above are the smaller images derived from the original 5000 x 5000 format. Using the GDAL model, I was able to recreate the larger 5000 x 5000 image with the mask, giving more context than the smaller images. These were the intended end product of the model: maps showing where buildings are in a given section. With these images, we can directly compare the number of buildings in a given area from 2002 compared to 2011. 
-
+#### [View additional comparative images for 2002  vs 2011](images.md)
 
 #### [Information about Future Goals](future.md)
 
