@@ -1,4 +1,4 @@
-## Results of the UNet Model
+## Results of the U-Net Model
 ### Results on Training Data
 As mentioned in the previous sections, I trained the U-Net model on the Inria Challenge dataset. I split those larger images into the smaller 250 x 250 format and then resized them further to fit into the model. I ultimately had 3,120 images that were 256 x 256 in size. I implemented the train test split and trained the model for a total of 15 epochs with a batch size of 32. I ran this model a handful of times with different numbers of epochs. The first couple of times I trained for 10 epochs and reached around 89% on the testing dataset. Once I upped the epochs to 15 I began getting better results into the mid 90s. The process of training for 15 epochs took around 5 hours for each run through. I trained a total of 5 times. Below are the results I gathered from my best training cycle and the accompanying loss graph for the duration of training:
 
