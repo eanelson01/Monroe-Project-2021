@@ -1,3 +1,5 @@
 ## Reflection on my Summer
 
 Upon reflection of this project and the summer, I am grateful for the experience. I came into this summer with no prior experience in coding or Python. My only experience with machine learning techniques was my Data 150 course with Professor Frazier where we discussed the theories but not the actual implementation. Because of that, I am happy with how the project and summer turned out. The progression of going from not knowing anything to slowly getting a grasp of the concepts and finally implementing them myself was immensely rewarding. Additionally, working with satellite imagery for the first time was enjoyable. Seeing the place that I lived for a couple of years change over the time from 2002 to 2011 was eye-opening. Pointing out the places I used to drive by every day and seeing how it changed over that time period from a top-down perspective provided a lot of insight. Devoting myself to a singular task and producing a result that provides so much utility for the place I lived is immensely gratifying and one I wish to do again. Thank you for following my journey and learning about my project!
+
+#### [Home Page](README.md)
