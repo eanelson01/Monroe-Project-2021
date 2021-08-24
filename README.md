@@ -28,3 +28,5 @@ With these steps, I feel confident that I will be able to create a model capable
 [8. Further Comparison Images of 2002 vs 2011 Harrisonburg](images.md)
 
 [9. Future Goals and Implementation](future.md)
+
+[10. Reflections on the Project and Summer](conclusion.md)
