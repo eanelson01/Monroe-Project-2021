@@ -20,6 +20,6 @@ Below are the generated masks for 2002 vs 2011. These masks come from the same a
 | ![img.png](images/02_83_mask.png) | ![img.png](images/11_83_mask.png) | 
 | ![img.png](images/02_80_mask.png) | ![img.png](images/11_80_mask.png) |
 
-#### [Back to Resutls](results.md)
+#### [Back to Results](results.md)
 
 #### [Home Page](README.md)
